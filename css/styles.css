@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 90px;
+  color: #39A2DB;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #39A2DB;
+  padding-bottom: 10px;
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #185ADB;
+  font-weight: bolder;
+  font-size: 20px;
+
+}
+hr{
+
+
+    border-style: dotted none none;
+    width: 4%;
+    border-color: grey;
+    border-width: 6px;
+    margin: 100px auto;
+
+}
+
+
+
+.top-container {
+  background-color: #C2F0FC;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+  background-color: #C2F0FC;
+  padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+.bio{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 400px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+
+}
+
+.flutter{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.front-end{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.chocolate{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+p{
+  font-size: 18px;
+}
+.profile{
+  margin-top: 100px;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+  line-height: 2;
+}
+
+.btn {
+  background: #34b8d9;
+  background-image: -webkit-linear-gradient(top, #34b8d9, #2b71b8);
+  background-image: -moz-linear-gradient(top, #34b8d9, #2b71b8);
+  background-image: -ms-linear-gradient(top, #34b8d9, #2b71b8);
+  background-image: -o-linear-gradient(top, #34b8d9, #2b71b8);
+  background-image: linear-gradient(to bottom, #34b8d9, #2b71b8);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cfaea;
+  background-image: -webkit-linear-gradient(top, #3cfaea, #34add9);
+  background-image: -moz-linear-gradient(top, #3cfaea, #34add9);
+  background-image: -ms-linear-gradient(top, #3cfaea, #34add9);
+  background-image: -o-linear-gradient(top, #3cfaea, #34add9);
+  background-image: linear-gradient(to bottom, #3cfaea, #34add9);
+  text-decoration: none;
+}
+
+.contact-me{
+  padding-bottom: 100px;
+}
+a{
+  color: #39A2DB;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #04009A;
+}
+.copyright{
+  color: #04009A;
+  font-size: 1rem;
+  padding: 20px 0;
+}
